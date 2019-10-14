@@ -1,0 +1,21 @@
+.jumbotron{
+    height: 90vh;
+    background-image: url('./images/CraftyCircularBeauceron-size_restricted.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+/* pour centrer verticalement */
+    position: relative;
+    text-align: center;
+}
+
+
+.jumbo-text{
+
+    /* pour centrer verticalement */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
